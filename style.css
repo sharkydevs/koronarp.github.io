@@ -1,0 +1,60 @@
+/* Define a custom font using @font-face */
+* {
+  font-family: "Comic Sans MS", cursive;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fedc58, #ff904c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; /* Ensure the body covers the entire viewport height */
+}
+
+nav  {
+    background-color: #d3a6627d;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  text-align: right;
+}
+.logo   {
+    list-style: none;
+    display: inline;
+    justify-content: center;
+    text-align: left;
+  }
+
+nav li a{
+  text-decoration: none;
+  color: #553e1d;
+  padding: 10px;
+}
+
+
+.banner {
+    text-align: center;
+    /* background-image: linear-gradient(to right, #6fb8e9, #032e4b); */
+    /* background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%); */
+  
+  }
+
+footer {
+  text-decoration: none;
+  color: #553e1d;
+  text-align: center;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: #553e1d;
+}
+
+
+a:hover {
+  color: black;
+}
